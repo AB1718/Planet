@@ -1,0 +1,47 @@
+/* App.css */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.planet-card {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0d2137;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.planet {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.residents-list {
+  margin-top: 10px;
+}
+
+.residents-list h3 {
+  margin-bottom: 5px;
+}
+
+.residents-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.residents-list li {
+  margin-bottom: 5px;
+}

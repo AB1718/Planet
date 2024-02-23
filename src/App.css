@@ -45,3 +45,19 @@ button:disabled {
 .residents-list li {
   margin-bottom: 5px;
 }
+
+/* Responsive CSS */
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .planet {
+    padding: 5px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
